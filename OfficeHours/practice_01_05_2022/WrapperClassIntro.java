@@ -1,6 +1,7 @@
 package practice_01_05_2022;
 
 public class WrapperClassIntro {
+    public String str = "Anything";
     public static void main(String args[]) {
 // primitives type
         byte b = 10;
