@@ -27,13 +27,16 @@ public int miles;
 
 
     public void start () {// we have to make NOT static because we will use it for differnet cars
-
+        System.out.println(brand+" "+model+" is starting");
+    }
+    public void drive(){
+        System.out.println(brand +" "+ model + " is driving");
     }
 
 
 //  public void drive() {
-//   we can not use because it not commen for all cars
-//  }
+//   we can not use because it is not common for all cars
+//  }is not common for all the cars, and parent class should only contain the common feature of all the subclasses
 
 
     public String toString() {

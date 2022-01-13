@@ -10,9 +10,13 @@ public void breaksDown() {
     System.out.println(brand+" "+model+" is brake down ");
 }
 public void  racing() {
-    System.out.println(brand+" "+model+" is racing");
+    System.out.println(brand+" "+model+" is racing car");
 }
 
+    @Override
+    public void start() {
+        System.out.println("Call mechanic to jump start "+brand+" "+model);
+    }
 
 /*
 2. BMW:
