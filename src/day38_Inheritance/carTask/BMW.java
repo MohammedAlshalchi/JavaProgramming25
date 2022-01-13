@@ -6,8 +6,19 @@ public class BMW extends Car{
         super("BMW", modle, year, price, color, miles);
     }
 
+public void breaksDown() {
+    System.out.println(brand+" "+model+" is brake down ");
+}
+public void  racing() {
+    System.out.println(brand+" "+model+" is racing");
+}
 
 
-
+/*
+2. BMW:
+                extra methods:
+                    breaksDown()
+                    racing()
+ */
 
 }
