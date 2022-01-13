@@ -10,7 +10,7 @@ public class Car {
             start(), drive(),toString()
  */
 
-public String brand,modle; // instance so we can not make static
+public String brand,model; // instance so we can not make static
 public int year;// we can use privet
 public double price;
 public String color;
@@ -18,7 +18,7 @@ public int miles;
 
     public Car(String brand, String modle, int year, double price, String color, int miles) {
         this.brand = brand;
-        this.modle = modle;
+        this.model = modle;
         this.year = year;
         this.price = price;
         this.color = color;
@@ -39,7 +39,7 @@ public int miles;
     public String toString() {
         return "Car{" +
                 "brand='" + brand + '\'' +
-                ", modle='" + modle + '\'' +
+                ", modle='" + model + '\'' +
                 ", year=" + year +
                 ", price=" + price +
                 ", color='" + color + '\'' +
