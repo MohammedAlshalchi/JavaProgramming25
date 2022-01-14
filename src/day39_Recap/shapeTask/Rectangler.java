@@ -43,13 +43,13 @@ public class Rectangler extends Shape{
         setWidth(width);
     }
 
-    @Override
+    @Override// we can move it
     public double area() {
 //        return super.area();
         return length   * width;
     }
 
-    @Override
+
     public double perimeter() {
 //        return super.perimeter();
         return 2 * (length * width);

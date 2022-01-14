@@ -29,7 +29,7 @@ public class Square extends Shape{
     }
 
                                 // we can not use -100
-    public Square (String name, double side) {
+    public Square (double side) {
         super("Square");
         //this.side = side;
         setSide(side);// more safe , and make sure use the right data EX: we can not use -100 according to the req.
