@@ -3,14 +3,12 @@ package day37_Inheritance.animalTask;
 public class Dog extends Animal{
 
 //public String lastName;
+// public int a ; ==> we have to added manually
+
 
      // Dog is the constructor for this class
     // constructor can be called only by anther constructor
 
-
-
-
-// public int a ; ==> we have to added manually
    // public Dog(String name, String breed, char gender, int age, String size, String color,String lastName){
 public Dog(String name, String breed, char gender, int age, String size, String color){
         //public Dog(String name, String breed, char gender, int age, String size, String color,int a)
