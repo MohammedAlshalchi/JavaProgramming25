@@ -24,7 +24,8 @@ public int miles;
         this.color = color;
         this.miles = miles;
     }
-
+// must be inheritance to make overriding
+    // we have one method in overriding with METHOD overloading we will have new method
 
     public void start () {// we have to make NOT static because we will use it for differnet cars
         System.out.println(brand+" "+model+" is starting");
