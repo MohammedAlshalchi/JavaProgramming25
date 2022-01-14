@@ -5,7 +5,7 @@ public class AnimalObjects {
 
     public static void main(String[] args) {
 
-        Dog dog1 = new Dog("Alex", "Husky", 'M', 1, "Small", "White");
+        Dog dog1 = new Dog("Alex", "Husky", 'M', 1, "Small", "White","Mohammed");
 
         System.out.println(dog1);
 

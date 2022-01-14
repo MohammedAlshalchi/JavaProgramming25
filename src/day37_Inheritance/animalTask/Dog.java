@@ -2,6 +2,7 @@ package day37_Inheritance.animalTask;
 
 public class Dog extends Animal{
 
+//public String lastName;
 
      // Dog is the constructor for this class
     // constructor can be called only by anther constructor
@@ -10,11 +11,13 @@ public class Dog extends Animal{
 
 
 // public int a ; ==> we have to added manually
-    public Dog(String name, String breed, char gender, int age, String size, String color){
+   // public Dog(String name, String breed, char gender, int age, String size, String color,String lastName){
+public Dog(String name, String breed, char gender, int age, String size, String color){
         //public Dog(String name, String breed, char gender, int age, String size, String color,int a)
 
         super(name, breed, gender, age, size, color); // to call the constructor from anther class(parent class)
        // this.a=a;
+       // this.lastName=lastName;
     }
 
     public void bark(){
@@ -23,12 +26,29 @@ public class Dog extends Animal{
     }
 
 
+//    @Override
+//    public String toString() {
+//        return "Dog{" +
+//                "name='" + name + '\'' +
+//                ", breed='" + breed + '\'' +
+//                ", gender=" + gender +
+//                ", age=" + age +
+//                ", size='" + size + '\'' +
+//                ", color='" + color + '\'' +
+//                ", lastName='" + lastName + '\'' +
+//                '}';
+//    }
 
 
-
-
-
-
-
-
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "name='" + name + '\'' +
+                ", breed='" + breed + '\'' +
+                ", gender=" + gender +
+                ", age=" + age +
+                ", size='" + size + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
