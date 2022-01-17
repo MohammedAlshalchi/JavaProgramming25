@@ -1,4 +1,4 @@
-package day39_Recap.cydeoTask;
+package Day33_Statics.cydeoTask;
 
 public class Person {
     /*
