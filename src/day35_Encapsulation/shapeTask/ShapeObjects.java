@@ -1,4 +1,4 @@
-package day39_Recap.shapeTask;
+package day35_Encapsulation.shapeTask;
 
 public class ShapeObjects {
     public static void main(String[] args) {
