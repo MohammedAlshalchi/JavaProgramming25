@@ -1,4 +1,4 @@
-package day37_Inheritance.scrumTask;
+package Day33_Statics.day37_Inheritance.scrumTask;
 
 public class ScrumMaster extends Employee{
     public ScrumMaster(String name, int age, char gender,  int id, double salary, String companyName) {

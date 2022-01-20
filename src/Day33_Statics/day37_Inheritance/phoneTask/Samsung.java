@@ -1,4 +1,4 @@
-package day37_Inheritance.phoneTask;
+package Day33_Statics.day37_Inheritance.phoneTask;
 
 public class Samsung extends Phone{
 

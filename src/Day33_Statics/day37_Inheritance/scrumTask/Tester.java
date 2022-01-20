@@ -1,4 +1,4 @@
-package day37_Inheritance.scrumTask;
+package Day33_Statics.day37_Inheritance.scrumTask;
 
 public class Tester extends Employee{//sub-class from employee ,, tester ia a person now
 

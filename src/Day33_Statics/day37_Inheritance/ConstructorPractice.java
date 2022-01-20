@@ -1,4 +1,4 @@
-package day37_Inheritance;
+package Day33_Statics.day37_Inheritance;
 
 public class ConstructorPractice {
 /*

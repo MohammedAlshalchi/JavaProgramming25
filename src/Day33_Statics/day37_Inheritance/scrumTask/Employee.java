@@ -1,4 +1,4 @@
-package day37_Inheritance.scrumTask;
+package Day33_Statics.day37_Inheritance.scrumTask;
 
 public class Employee extends Person{
 
