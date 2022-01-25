@@ -1,4 +1,4 @@
-package practice_01_12_2022.accessModifier;
+package day14_String.practice_01_12_2022.accessModifier;
 
 public class Person {
 

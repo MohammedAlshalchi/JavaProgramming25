@@ -1,4 +1,4 @@
-package practice_01_12_2022.customClass;
+package day14_String.practice_01_12_2022.customClass;
 
 public class Earth {
     public static void main(String[] args) {

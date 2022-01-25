@@ -1,4 +1,4 @@
-package practice_01_12_2022.statics;
+package day14_String.practice_01_12_2022.statics;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package practice_01_12_2022.remainderRule;
+package day14_String.practice_01_12_2022.remainderRule;
 import java.util.Scanner;
 
 public class RemiderRule {

@@ -1,4 +1,4 @@
-package practice_01_12_2022.statics;
+package day14_String.practice_01_12_2022.statics;
 
 public class StaticBlockObject {
     public static void main(String[] args) {
