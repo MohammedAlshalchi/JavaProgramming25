@@ -1,4 +1,4 @@
-package Day_06_01_2022.Qeustion4;
+package Day_06_01_22_2022.Qeustion4;
 
 public class Room {
     double width;

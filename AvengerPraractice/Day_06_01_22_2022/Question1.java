@@ -1,4 +1,4 @@
-package Day_06_01_2022;
+package Day_06_01_22_2022;
 
 public class Question1 {
     String name;

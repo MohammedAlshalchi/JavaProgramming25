@@ -1,4 +1,4 @@
-package Day_06_01_2022.Question5;
+package Day_06_01_22_2022.Question5;
 
 public class Sport {
     String name;
