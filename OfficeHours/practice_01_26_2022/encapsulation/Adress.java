@@ -3,24 +3,17 @@ package practice_01_26_2022.encapsulation;
 public class Adress {
     /*
             AdressTask
-
             Create a class named Address
-
             Private variables:
                     street, city, state, zipCode,country
-
             encapsulate all the fields
-
             add a constructor that can set all the instances
                   overload constr with no arg constr
-
             - if the street name isEmpty or street length is bigger than 50
              otherwise
                  ERROR : Invalid Street
-
             - ZipCode length should be equal 5 otherwise
                  ERROR :Invalid ZipCode
-
             DO NOT duplicate any code fragments
         */
 
