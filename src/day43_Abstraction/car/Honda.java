@@ -16,7 +16,11 @@ public class Honda extends Car{
 //    public void stop() {
 //        super.stop();
 //    }
+
+
+    // this is con concrete class
 public Honda( String model, String color, int year, double price) {// we can make it final
+    // we can make it abstract but we will not able to make object in the class
     super("Honda", model, color, year, price);
 }
 

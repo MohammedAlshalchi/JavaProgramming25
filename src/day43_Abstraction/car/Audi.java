@@ -1,6 +1,6 @@
 package day43_Abstraction.car;
 
-public class Audi extends Car{
+public class Audi extends Car{// we can make final and we can make object as usual
 
 
     public Audi( String model, String color, int year, double price) {
