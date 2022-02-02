@@ -16,7 +16,7 @@ public class Honda extends Car{
 //    public void stop() {
 //        super.stop();
 //    }
-public Honda( String model, String color, int year, double price) {
+public Honda( String model, String color, int year, double price) {// we can make it final
     super("Honda", model, color, year, price);
 }
 

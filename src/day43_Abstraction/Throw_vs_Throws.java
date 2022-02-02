@@ -7,8 +7,8 @@ public class Throw_vs_Throws {
         int score = new Scanner(System.in).nextInt();
 
         if(score < 0 || score > 100){
-            throw new RuntimeException("Invalid score: "+score); // exit(1)
-        }
+            throw new RuntimeException("Invalid score: "+score); // we are here creating exception
+        }// exit(1)==> means something went wrong ,exit(0)==> means running without wrong
 
 
         if(score >= 90){
@@ -23,7 +23,7 @@ public class Throw_vs_Throws {
             System.out.println("F");
         }
 
-        // method1();
+        // method1();==>we have to handle the exception
 
     }
 
