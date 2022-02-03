@@ -1,4 +1,4 @@
-package day32_Constructor.day40_FinalKeyword;
+package day40_FinalKeyword;
 
 import day35_Encapsulation.shapeTask.Circle;
 import day35_Encapsulation.shapeTask.Square;

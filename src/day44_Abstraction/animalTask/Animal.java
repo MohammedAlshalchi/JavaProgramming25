@@ -1,6 +1,6 @@
 package day44_Abstraction.animalTask;
 
-public class Animal {
+public abstract class Animal {
     /*
     Animal Task:
     Create an abstract class named Animal:
@@ -96,9 +96,11 @@ static {
     }
 
 
+public final void drink (){
+    System.out.println(name+" is drinking");
+}
 
-
-
+public abstract void eat ();// we can not use final because we need to override the method 
 
 
 

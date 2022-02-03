@@ -1,6 +1,6 @@
 package utilities;
 
-import day32_Constructor.day40_FinalKeyword.ProtectedAccessModifier;
+import day40_FinalKeyword.ProtectedAccessModifier;
 
 public class AccessModifiers_Test4 extends ProtectedAccessModifier {
     public static void main(String[] args) {

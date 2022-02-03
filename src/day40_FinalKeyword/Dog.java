@@ -1,4 +1,4 @@
-package day32_Constructor.day40_FinalKeyword;
+package day40_FinalKeyword;
 
 public final class Dog extends Animal {// can NOT be parent class
     public Dog(String name,String breed, char gender, String color, String size, int age) {
