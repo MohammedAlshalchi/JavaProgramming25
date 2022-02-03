@@ -1,4 +1,4 @@
-package day39_Recap.day43_Abstraction.employee;
+package day43_Abstraction.employee;
 
 public final class Tester extends Employee {
 

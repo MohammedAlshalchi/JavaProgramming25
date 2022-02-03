@@ -1,4 +1,4 @@
-package day39_Recap.day43_Abstraction.car;
+package day43_Abstraction.car;
 
 public abstract class Car {// we can not make object from this class
 

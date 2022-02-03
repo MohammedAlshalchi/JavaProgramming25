@@ -1,4 +1,4 @@
-package day39_Recap.day43_Abstraction;
+package day43_Abstraction;
 import java.util.Scanner;
 public class Throw_vs_Throws {
     public static void main(String[] args) {

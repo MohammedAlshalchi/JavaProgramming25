@@ -26,11 +26,11 @@ public class Animal {
 
 //    public final static boolean canBreath = true;
 
-public final static boolean canBreath;
+public final static boolean canBreathe;
 
 static {
-    canBreath= true;
-    if (canBreath == false){
+    canBreathe= true;
+    if (canBreathe == false){
         throw new RuntimeException("Invalid");
     }
 }
