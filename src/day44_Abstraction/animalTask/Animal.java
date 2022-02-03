@@ -100,7 +100,22 @@ public final void drink (){
     System.out.println(name+" is drinking");
 }
 
-public abstract void eat ();// we can not use final because we need to override the method 
+public abstract void eat ();// we can not use final because we need to override the method
+
+    public String toString() {
+        return getClass().getSimpleName()+"{" +// instead of animal we WILL use
+                "name='" + name + '\'' +
+                ", breed='" + breed + '\'' +
+                ", gender=" + gender +
+                ", age=" + age +
+                ", size='" + size + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
+
+
+
+
 
 
 
