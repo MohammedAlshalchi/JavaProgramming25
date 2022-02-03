@@ -2,6 +2,7 @@ package day43_Abstraction;
 import java.util.Scanner;
 public class Throw_vs_Throws {
     public static void main(String[] args) {
+        //step1
 
         System.out.println("Enter your score:");
         int score = new Scanner(System.in).nextInt();
