@@ -1,6 +1,6 @@
 package day44_Abstraction.animalTask;
 
-public final class Eagle extends Animal{
+public final class Eagle extends Animal implements WildAnimal,Flayable{
 
     /*
      Eagle
@@ -14,5 +14,14 @@ public final class Eagle extends Animal{
     @Override
     public void eat() {
         System.out.println(getName()+" is eating snake");
+    }
+
+    public void hunt() {
+        System.out.println(getName()+" hunts snake");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("getName()+\" is flying hiegh\" = " + getName() + " is flying hiegh");
     }
 }

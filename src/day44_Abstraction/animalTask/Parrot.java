@@ -1,6 +1,6 @@
 package day44_Abstraction.animalTask;
 
-public final class Parrot extends Animal implements Playable{
+public final class Parrot extends Animal implements Playable,Flayable{
     /*
     Parrot
                 eat(): eats chocolate
@@ -18,5 +18,10 @@ public final class Parrot extends Animal implements Playable{
     @Override
     public void play() {
         System.out.println("getName()+\" is plying with me\" = " + getName() + " is plying with me");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("getName()+\" is flying 20 Km/h\" = " + getName() + " is flying 20 Km/h");
     }
 }

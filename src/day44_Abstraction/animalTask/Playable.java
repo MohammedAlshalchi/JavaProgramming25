@@ -7,6 +7,13 @@ public interface Playable {// it is interface NOT a class (supper type )
     //public abstract void play ();
    // abstract void play ();
 
+
+    /*
+    public static void method1(){
+        System.out.println(isFriendly);
+    }
+    */
+
     void play();// abstract by default
 
     //static boolean isfriendly;=====> we should initialized
