@@ -1,10 +1,8 @@
 package day34_GarbageCollection_AccessModifiers;
 
-import Day33_Statics.Iphone;
 import day30_CustomClass.Dog;
 import day31_Constructors.Student;
 import day32_Constructor.Car;
-import utilities.ArraysUtility;
 
 import java.util.ArrayList;
 import java.util.Arrays;
