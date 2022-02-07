@@ -1,6 +1,8 @@
 package day44_Abstraction.animalTask;
 
-public final class Dog extends Animal{// we can make it final BUT we can not inheritance  the class
+public final class Dog extends Animal implements Playable{
+    // we can make it final BUT we can not inheritance  the class
+    // we can use abstract AND no need to use implementation for methods
 /*
  Dog
                 eat(): eats Pizza
@@ -21,10 +23,8 @@ public final class Dog extends Animal{// we can make it final BUT we can not inh
     }
 
 
-
-
-
-
-
-
+    @Override
+    public void play() {
+        System.out.println("getName()+\" is playing with ball\" = " + getName() + " is playing with ball");
+    }
 }
