@@ -1,4 +1,4 @@
-package day44_Abstraction.day43_Abstraction.employee;
+package day43_Abstraction.employee;
 
 public final class Developer extends Employee{
 

@@ -1,6 +1,6 @@
 package day45_Abstraction.shapeTask;
 
-public abstract class  Circle extends Shape{
+public  class  Circle extends Shape{
 
 private double raduis;
 public final static double pi = 3.14;// we should iniliazed directly
@@ -17,7 +17,7 @@ public final static double pi = 3.14;// we should iniliazed directly
 
     public void setRaduis(double raduis) {
         if (raduis < 0){
-            throw new RuntimeException("Invalid Raduis");
+            throw new RuntimeException("Invalid Raduis"+raduis);
         }
         this.raduis = raduis;
     }
@@ -31,7 +31,7 @@ public final static double pi = 3.14;// we should iniliazed directly
     @Override
     public double perimeter() {
        // return 0;
-        return raduis * pi *2 ;
+        return 2 *raduis * pi  ;
     }
 
     @Override

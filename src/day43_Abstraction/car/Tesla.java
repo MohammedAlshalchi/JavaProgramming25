@@ -1,4 +1,4 @@
-package day44_Abstraction.day43_Abstraction.car;
+package day43_Abstraction.car;
 
 public class Tesla extends Car{
 
