@@ -21,7 +21,7 @@ void method1 (){
 class A extends InheritanceReview {
 
     public A(int a) {
-        super(a);
+        super(a);// to call the paranet constructor
     }
 }
 
