@@ -43,9 +43,14 @@ public class SetPractice2 {
                         Do not change the order of the elements
          */
 
-        Integer[] nums = {1,2,1,1,2,2,2,3,3,3,3,2,3,4,5,1,2,3,4,5,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10};
+ Integer[] nums = {1,2,1,1,2,2,2,3,3,3,3,2,3,4,5,1,2,3,4,5,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10};// this is array
 
-        nums = new LinkedHashSet<>(  Arrays.asList(nums) ).toArray( new Integer[0] );
+       // nums = new LinkedHashSet<>(  Arrays.asList(nums) ).===> we can not do this because Array and  LinkedHashSet has NO RELATION
+        // so we need to convert
+
+     //to convert array to arrayList     to convert arrayList to array   we should put Integer to keep the same type
+        nums = new LinkedHashSet<>(  Arrays.asList(nums) ).toArray( new Integer[0] );// we put (0) because the minimum length for array
+// LinkedHashSet to keep thw same order during the removing the duplicates
 
         System.out.println(Arrays.toString(nums) );
 
