@@ -44,10 +44,7 @@ public class MapPractice1 {
        //    employeeMap.replace(entry.getKey() , "Female");
       }
 
-
      }
-
-
      System.out.println(employeeMap);
 
      System.out.println("--------------------------------------");
